@@ -19,6 +19,9 @@
     <!-- style css -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- wow animation -->
+    <link rel="stylesheet" href="css/animate.css">
+
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
@@ -81,7 +84,7 @@
     <section class="dance-tour">
       <div class="container">
         <div class="row">
-          <div class="col-xl-12">
+          <div class="col-xl-12 wow fadeInDown" data-wow-duration="2s" data-wow-delay="1s">
             <div class="title">
               <h1>Dance tour</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br>Vivamus lacinia odio vitae vestibulum vestibulum. </p>
@@ -90,7 +93,7 @@
         </div>
 
         <div class="row">
-          <div class="col-xl-4">
+          <div class="col-xl-4 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1s">
             <div class="three-card">
               <div class="card" style="width: 20rem;">
                 <img src="images/card1.png" class="card-img-top" alt="...">
@@ -101,7 +104,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-4">
+          <div class="col-xl-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
             <div class="three-card">
               <div class="card" style="width: 20rem;">
                 <img src="images/card2.png" class="card-img-top" alt="...">
@@ -112,7 +115,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-4">
+          <div class="col-xl-4 wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s">
             <div class="three-card">
               <div class="card" style="width: 20rem;">
                 <img src="images/card3.png" class="card-img-top" alt="...">
@@ -132,7 +135,7 @@
     <section class="pricing">
       <div class="container">
         <div class="row">
-          <div class="col-xl-12">
+          <div class="col-xl-12 wow fadeInDown" data-wow-duration="2s" data-wow-delay="1s">
             <div class="title">
               <h1>pricing</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br>Vivamus lacinia odio vitae vestibulum vestibulum. </p>
@@ -141,7 +144,7 @@
         </div>
 
         <div class="row">
-          <div class="col-xl-4">
+          <div class="col-xl-4 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1s">
             <div class="new-card">
               <div class="card" style="width: 20rem;">
                 <img src="images/price-icon.png" class="card-img-top" alt="...">
@@ -153,7 +156,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-4">
+          <div class="col-xl-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
             <div class="new-card">
               <div class="card" style="width: 20rem;">
                 <img src="images/price-icon.png" class="card-img-top" alt="...">
@@ -165,7 +168,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-4">
+          <div class="col-xl-4 wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s">
             <div class="new-card">
               <div class="card" style="width: 20rem;">
                 <img src="images/price-icon.png" class="card-img-top" alt="...">
@@ -186,12 +189,12 @@
     <section class="amazing">
       <div class="container">
         <div class="row">
-          <div class="col-xl-6">
+          <div class="col-xl-6 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1s">
             <div class="picture">
               <img src="images/bg5.png" alt="">
             </div>
           </div>
-          <div class="col-xl-6">
+          <div class="col-xl-6 wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s">
             <div class="inner-dance">
               <h1>amazing dance</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br>Vivamus lacinia odio vitae vestibulum vestibulum. </p>
@@ -207,14 +210,14 @@
     <section class="best">
       <div class="container">
         <div class="row">
-          <div class="col-xl-6">
+          <div class="col-xl-6 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1s">
             <div class="inner-best">
               <h1>best dance</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br>Vivamus lacinia odio vitae vestibulum vestibulum. </p>
               <a href="#" class="btn btn-info">read more</a>
             </div>
           </div>
-          <div class="col-xl-6">
+          <div class="col-xl-6 wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s">
             <div class="pic">
               <img src="images/bg6.png" alt="">
             </div>
@@ -299,7 +302,7 @@
     <section class="subscribe">
       <div class="container">
         <div class="row">
-          <div class="col-xl-12">
+          <div class="col-xl-12 wow fadeInDown" data-wow-duration="2s" data-wow-delay="1s">
             <div class="title">
               <h1>our statistics</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br>Vivamus lacinia odio vitae vestibulum vestibulum. </p>
@@ -379,6 +382,12 @@
 
     <!-- owl carousel js -->
     <script src="js/owl.carousel.min.js"></script>
+
+    <!-- animation js -->
+    <script src="js/wow.js"></script>
+    <script>
+      new WOW().init();
+    </script>
 
     <script>
         $('.owl-carousel').owlCarousel({
