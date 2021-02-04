@@ -242,19 +242,19 @@
         <div class="row">
           <div class="col-xl-4">
             <div class="club">
-              <h1>1020+</h1>
+              <h1><span class="tonoy">1020+</span></h1>
               <p>club</p>
             </div>
           </div>
           <div class="col-xl-4">
             <div class="club">
-              <h1>2000+</h1>
+              <h1><span class="tonmoy">2000+</span></h1>
               <p>active member</p>
             </div>
           </div>
           <div class="col-xl-4">
             <div class="club">
-              <h1>1000+</h1>
+              <h1><span class="tonjoy">1000+</span></h1>
               <p>community</p>
             </div>
           </div>
@@ -375,10 +375,11 @@
     <!-- footer section end -->
 
     <!-- Optional JavaScript; choose one of the two! -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 
     <!-- owl carousel js -->
     <script src="js/owl.carousel.min.js"></script>
@@ -411,6 +412,29 @@
     </script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="js/animationCounter.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      $('#counter-block').ready(function(){
+          $('.tonoy').animationCounter({
+            start: 0,
+            step: 10,
+            end: 1020,
+            delay:100
+          });
+          $('.tonmoy').animationCounter({
+            start: 0,
+            end: 2000,
+            step: 10,
+            delay: 100
+          });
+          $('.tonjoy').animationCounter({
+            start: 0,
+            end: 1000,
+            step: 10,
+            delay: 100
+          });
+      });
+      </script>
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
